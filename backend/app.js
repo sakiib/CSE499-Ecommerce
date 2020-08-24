@@ -2,6 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 
+const userRoutes = require('./routes/user');
+
 require('dotenv').config();
 
 mongoose.connect(process.env.DATABASE, {
@@ -10,9 +12,7 @@ mongoose.connect(process.env.DATABASE, {
     useUnifiedTopology: true
 }).then(() => console.log('mongo cloud database successfully connected!'));
 
-app.get('/', (req, res) => {
-    res.send('hello world');
-});
+app.use('/api', userRoutes);
 
 const port = process.env.PORT || 5000;
 
