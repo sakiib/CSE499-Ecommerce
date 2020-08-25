@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from 'react';
 import Layout from '../core/Layout';
 import { Link, Redirect } from 'react-router-dom';
-import { signin } from '../auth';
+import { signin, authenticate } from '../auth';
 
 const Signin = () =>  {
     const [values, setValues] = useState({
@@ -24,8 +24,10 @@ const Signin = () =>  {
                 setValues({ ...values, error: data.error, success: false, loading: false });
             } else {
                 // console.log('in success');
-                setValues({
-                    ...values, redirectToReferrer: true
+                authenticate(data, () => {
+                    setValues({
+                        ...values, redirectToReferrer: true
+                    });
                 });
             }
         });
