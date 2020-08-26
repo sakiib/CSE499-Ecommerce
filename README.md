@@ -1,4 +1,4 @@
 # CSE499-Ecommerce
 
-## CSE499 Senior Project
+## Senior Project (CSE499 A + CSE499 B)
 ### Web Based E-Commerce Project For Selling Agricultural Prouduce
