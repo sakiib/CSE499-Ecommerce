@@ -1,6 +1,6 @@
 # CSE499-Ecommerce
 
-## Senior Project (CSE499 A + CSE499 B)
+## Senior Project (CSE499 A + CSE499 B) *On Progress*
 ### **Web Based E-Commerce Project using the MERN Stack For Selling Agricultural Prouduce**
 
 ## Project ROAD MAP
