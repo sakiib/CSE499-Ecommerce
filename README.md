@@ -5,8 +5,7 @@
 
 ## Project ROAD MAP
 #### Back-End
-* Project Setup  Initializing the package.json with npm. Install express, mongoose, nodemon, morgan
-
+* Project Setup
 * MongoDB Cloud Database Setup
 * Building the RESTful API
 * User Signup
