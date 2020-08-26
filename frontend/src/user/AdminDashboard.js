@@ -16,7 +16,7 @@ const AdminDashboard = () => {
                         <Link className="nav-link" to="/create/category"> Create Category </Link>
                     </li>
                     <li className="list-group-item"> 
-                        <Link className="nav-link" to="/create/product"> Creae Prduct </Link>
+                        <Link className="nav-link" to="/create/product"> Create Product </Link>
                     </li>
                 </ul>
             </div>
@@ -39,10 +39,10 @@ const AdminDashboard = () => {
     return (
         <Layout title="Dashboard" description={`Good day ${name}`} className="container-fluid">
             <div className="row"> 
-                <div className="col-3"> 
+                <div className="col-6"> 
                     {adminLinks()}
                 </div>
-                <div className="col-9"> 
+                <div className="col-6"> 
                     {adminInfo()}
                 </div>
             </div>

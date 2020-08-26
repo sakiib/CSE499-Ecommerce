@@ -53,8 +53,10 @@ const Dashboard = () => {
                 <div className="col-3"> 
                     {userLinks()}
                 </div>
-                <div className="col-9"> 
+                <div className="col-3"> 
                     {userInfo()}
+                </div>
+                <div className="col-6"> 
                     {purchaseHistory()}
                 </div>
             </div>
