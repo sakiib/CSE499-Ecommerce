@@ -1,0 +1,9 @@
+/* border radius */
+
+.btn, .jumbotron, .nav :hover {
+    border-radius: 0px;
+}
+
+.product-img {
+    min-height: 100px;
+}
