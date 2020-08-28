@@ -69,9 +69,7 @@ const Search = () => {
 
                 <div className="row">
                     {results.map((product, i) => (
-                        <div className="col-4 mb-3">
-                            <Card key={i} product={product} />
-                        </div>
+                        <Card key={i} product={product} />
                     ))}
                 </div>
             </div>
@@ -115,7 +113,7 @@ const Search = () => {
 
     return (
         <div className="row">
-            <div className="container mb-3 mt-3"> 
+            <div className="container mb-3"> 
                 {searchForm()}
             </div>
             <div className="container-fluid mb-3">

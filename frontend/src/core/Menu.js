@@ -12,7 +12,7 @@ const isActive = (history, path) => {
 
 const Menu = ({ history }) => (
     <div> 
-        <ul className="nav nav-tabs bg-dark">
+        <ul className="nav nav-tabs bg-dark mt-auto">
             <li className="nav-item mr-auto">
                 <Link className="nav-link" style={isActive(history, '/')} to="/"> Home </Link>
             </li>
