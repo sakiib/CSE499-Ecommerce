@@ -48,7 +48,7 @@ const Menu = ({ history }) => (
 
             {isAuthenticated() && (
                 <li className="nav-item">
-                    <span className="nav-link" style={{cursor: 'pointer', color: '#ffff'}} 
+                    <span className="nav-link" style={{cursor: 'pointer', color: '#000000'}} 
                         onClick={() => signout(() => { history.push("/"); }) } > SIGNOUT 
                     </span>
                 </li>
