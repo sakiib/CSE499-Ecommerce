@@ -77,7 +77,7 @@ const Search = () => {
     };
 
     const searchForm = () => (
-        <form onSubmit={searchSubmit}>
+        <form className="form mt-3" onSubmit={searchSubmit}>
             <span className="input-group-text">
                 <div className="input-group input-group-lg">
                     <div className="input-group-prepend">

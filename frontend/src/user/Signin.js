@@ -56,12 +56,12 @@ const Signin = () =>  {
             </div>
             
             <div className='form-group'>
-                <button onClick={clickSubmit} className="btn btn-primary btn-block">
+                <button onClick={clickSubmit} className="btn btn-outline-primary btn-block">
                     Submit
                 </button>
             </div>
             {/* Need an account? */}
-            <p className='text-center text-white'>
+            <p className='text-center text-dark'>
                 Have an account?
                 <Link to='/signup'> Sign Up </Link>
             </p>

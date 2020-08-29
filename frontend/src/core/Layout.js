@@ -10,7 +10,7 @@ const Layout = ({title='Title', description='Description', className, children})
             <h2> {title} </h2>
             <p className="lead"> {description} </p>
         </div> */}
-        <Carousel />
+        {/* <Carousel /> */}
         <div className={className}> {children} </div>
     </div>
 );
