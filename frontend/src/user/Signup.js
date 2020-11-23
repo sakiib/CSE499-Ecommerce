@@ -62,7 +62,7 @@ const Signup = () =>  {
             </div>
             
             <div className='form-group'>
-                <button onClick={clickSubmit} className="btn btn-outline-primary btn-block">
+                <button onClick={clickSubmit} className="btn btn-primary btn-block">
                     Submit
                 </button>
             </div>

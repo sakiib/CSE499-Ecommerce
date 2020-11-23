@@ -15,33 +15,33 @@ const Menu = ({ history }) => (
     <div> 
         <ul className="nav nav-tabs bg-light mt-auto fixed-top">
             <li className="nav-item mr-auto">
-                <Link className="nav-link" style={isActive(history, '/')} to="/"> HOME </Link>
+                <Link className="nav-link font-weight-bold" style={isActive(history, '/')} to="/"> HOME </Link>
             </li>
 
             <li className="nav-item">
-                <Link className="nav-link" style={isActive(history, '/shop')} to="/shop"> SHOP </Link>
+                <Link className="nav-link font-weight-bold" style={isActive(history, '/shop')} to="/shop"> SHOP </Link>
             </li>
 
             {isAuthenticated() && isAuthenticated().user.role === 0 && (
                 <li className="nav-item">
-                    <Link className="nav-link" style={isActive(history, '/user/dashboard')} to="/user/dashboard"> DASHBOARD </Link>
+                    <Link className="nav-link font-weight-bold" style={isActive(history, '/user/dashboard')} to="/user/dashboard"> DASHBOARD </Link>
                 </li>
             )}
 
             {isAuthenticated() && isAuthenticated().user.role === 1 && (
                 <li className="nav-item">
-                    <Link className="nav-link" style={isActive(history, '/admin/dashboard')} to="/admin/dashboard"> DASHBOARD </Link>
+                    <Link className="nav-link font-weight-bold" style={isActive(history, '/admin/dashboard')} to="/admin/dashboard"> DASHBOARD </Link>
                 </li>
             )}
 
             {!isAuthenticated() && (
                 <Fragment>
                     <li className="nav-item">
-                        <Link className="nav-link" style={isActive(history, '/signin')} to="/signin"> SIGNIN </Link>
+                        <Link className="nav-link font-weight-bold" style={isActive(history, '/signin')} to="/signin"> SIGNIN </Link>
                     </li>
 
                     <li className="nav-item">
-                        <Link className="nav-link" style={isActive(history, '/signup')} to="/signup"> SIGNUP </Link>
+                        <Link className="nav-link font-weight-bold" style={isActive(history, '/signup')} to="/signup"> SIGNUP </Link>
                     </li>
                 </Fragment>
             )}
