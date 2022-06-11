@@ -1,9 +1,8 @@
-# CSE499-Ecommerce
+### Project for CSE499A, CSE499B courses in North South University. 
+Web Based E-Commerce Project using the MERN Stack For Selling Agricultural Produce.
+---
 
-## Senior Project (CSE499 A + CSE499 B) North South University
-### **Web Based E-Commerce Project using the MERN Stack For Selling Agricultural Produce**
-
-## Project ROAD MAP
+### Project Road Map
 #### Back-End
 * Project Setup  
 * MongoDB Cloud Database Setup
@@ -16,6 +15,7 @@
 * Products - CRUD
 * Products Sort By Arrival, Sold Amount
 * Search Products
+---
 
 #### Front-End
 * Project Setup
@@ -40,6 +40,7 @@
 * Show Details Of Products
 * Payment Inetgration
 * Checkout
+---
 
 #### Back-End / Front-End
 * API - Processing Payment
